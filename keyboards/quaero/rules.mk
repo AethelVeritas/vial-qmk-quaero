@@ -1,1 +1,1 @@
-SERIAL_DRIVER = vender
+SERIAL_DRIVER = vendor
