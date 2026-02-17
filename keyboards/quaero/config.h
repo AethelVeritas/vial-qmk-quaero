@@ -11,4 +11,4 @@
 
 /* Right half uses different row/col pins */
 #define MATRIX_ROW_PINS_RIGHT { GP3, GP4, GP11, GP10, GP9 }
-#define MATRIX_COL_PINS_RIGHT { GP29, GP28, GP27, GP26, GP15, GP14 }
+#define MATRIX_COL_PINS_RIGHT {GP14, GP15, GP26, GP27, GP28, GP29} 

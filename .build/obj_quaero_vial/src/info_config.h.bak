@@ -25,10 +25,50 @@
 
 #pragma once
 
-#define QMK_VERSION "NA"
-#define QMK_BUILDDATE "2026-02-17-15:44:50"
-#define QMK_GIT_HASH  "NA"
-#define CHIBIOS_VERSION "NA"
-#define CHIBIOS_CONTRIB_VERSION "NA"
+#ifndef DIODE_DIRECTION
+#    define DIODE_DIRECTION COL2ROW
+#endif // DIODE_DIRECTION
 
-#define BUILD_ID ((uint32_t)0x0082FC54)
+#ifndef DEVICE_VER
+#    define DEVICE_VER 0x0100
+#endif // DEVICE_VER
+
+#ifndef MANUFACTURER
+#    define MANUFACTURER "AethelVeritas"
+#endif // MANUFACTURER
+
+#ifndef PRODUCT
+#    define PRODUCT "quaero"
+#endif // PRODUCT
+
+#ifndef PRODUCT_ID
+#    define PRODUCT_ID 0x3303
+#endif // PRODUCT_ID
+
+#ifndef VENDOR_ID
+#    define VENDOR_ID 0xFEED
+#endif // VENDOR_ID
+
+#ifndef MATRIX_COLS
+#    define MATRIX_COLS 6
+#endif // MATRIX_COLS
+
+#ifndef MATRIX_ROWS
+#    define MATRIX_ROWS 10
+#endif // MATRIX_ROWS
+
+#ifndef MATRIX_COL_PINS
+#    define MATRIX_COL_PINS { GP8, GP7, GP6, GP5, GP4, GP3 }
+#endif // MATRIX_COL_PINS
+
+#ifndef MATRIX_ROW_PINS
+#    define MATRIX_ROW_PINS { GP0, GP1, GP2, GP9, GP15 }
+#endif // MATRIX_ROW_PINS
+
+#ifndef MATRIX_COL_PINS_RIGHT
+#    define MATRIX_COL_PINS_RIGHT { GP29, GP28, GP27, GP26, GP15, GP14 }
+#endif // MATRIX_COL_PINS_RIGHT
+
+#ifndef MATRIX_ROW_PINS_RIGHT
+#    define MATRIX_ROW_PINS_RIGHT { GP3, GP4, GP11, GP10, GP9 }
+#endif // MATRIX_ROW_PINS_RIGHT

@@ -36,7 +36,7 @@ __attribute__((weak)) const matrix_row_t matrix_mask[] = {
     0b111111,
     0b111111,
     0b111111,
-    0b001111,
+    0b111100,
 };
 #endif
 
