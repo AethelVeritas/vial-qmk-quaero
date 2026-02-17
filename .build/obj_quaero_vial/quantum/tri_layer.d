@@ -1,0 +1,13 @@
+.build/obj_quaero_vial/quantum/tri_layer.o: quantum/tri_layer.c \
+ keyboards/quaero/config.h .build/obj_quaero_vial/src/info_config.h \
+ keyboards/quaero/keymaps/vial/config.h \
+ platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h \
+ platforms/chibios/config.h quantum/split_common/post_config.h \
+ quantum/tri_layer.h
+keyboards/quaero/config.h:
+.build/obj_quaero_vial/src/info_config.h:
+keyboards/quaero/keymaps/vial/config.h:
+platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
+platforms/chibios/config.h:
+quantum/split_common/post_config.h:
+quantum/tri_layer.h:

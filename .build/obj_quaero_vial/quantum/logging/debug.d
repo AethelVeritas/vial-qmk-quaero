@@ -1,0 +1,24 @@
+.build/obj_quaero_vial/quantum/logging/debug.o: quantum/logging/debug.c \
+ keyboards/quaero/config.h .build/obj_quaero_vial/src/info_config.h \
+ keyboards/quaero/keymaps/vial/config.h \
+ platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h \
+ platforms/chibios/config.h quantum/split_common/post_config.h \
+ quantum/logging/debug.h quantum/logging/print.h quantum/util.h \
+ quantum/bits.h quantum/bitwise.h platforms/chibios/_util.h \
+ quantum/logging/sendchar.h platforms/progmem.h \
+ lib/printf/src/printf/printf.h
+keyboards/quaero/config.h:
+.build/obj_quaero_vial/src/info_config.h:
+keyboards/quaero/keymaps/vial/config.h:
+platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
+platforms/chibios/config.h:
+quantum/split_common/post_config.h:
+quantum/logging/debug.h:
+quantum/logging/print.h:
+quantum/util.h:
+quantum/bits.h:
+quantum/bitwise.h:
+platforms/chibios/_util.h:
+quantum/logging/sendchar.h:
+platforms/progmem.h:
+lib/printf/src/printf/printf.h:
