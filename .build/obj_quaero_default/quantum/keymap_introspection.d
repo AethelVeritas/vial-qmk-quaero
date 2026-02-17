@@ -136,8 +136,8 @@
  quantum/bits.h platforms/chibios/_util.h tmk_core/protocol/host_driver.h \
  quantum/led.h quantum/action_util.h quantum/action_tapping.h \
  quantum/logging/print.h quantum/logging/sendchar.h \
- quantum/logging/debug.h platforms/suspend.h \
- quantum/bootmagic/bootmagic.h \
+ lib/printf/src/printf/printf.h quantum/logging/debug.h \
+ platforms/suspend.h quantum/bootmagic/bootmagic.h \
  quantum/process_keycode/process_space_cadet.h \
  quantum/send_string/send_string.h \
  quantum/send_string/send_string_keycodes.h quantum/mousekey.h \
@@ -322,6 +322,7 @@ quantum/action_util.h:
 quantum/action_tapping.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:
 quantum/logging/debug.h:
 platforms/suspend.h:
 quantum/bootmagic/bootmagic.h:

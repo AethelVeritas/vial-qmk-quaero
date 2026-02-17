@@ -26,9 +26,9 @@
 #pragma once
 
 #define QMK_VERSION "NA"
-#define QMK_BUILDDATE "2026-02-17-12:25:59"
+#define QMK_BUILDDATE "2026-02-17-13:15:36"
 #define QMK_GIT_HASH  "NA"
 #define CHIBIOS_VERSION "NA"
 #define CHIBIOS_CONTRIB_VERSION "NA"
 
-#define BUILD_ID ((uint32_t)0x004BA0DB)
+#define BUILD_ID ((uint32_t)0x001A218F)

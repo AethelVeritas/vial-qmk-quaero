@@ -8,9 +8,9 @@
  quantum/bits.h quantum/bitwise.h platforms/chibios/_util.h \
  tmk_core/protocol/host_driver.h quantum/led.h quantum/logging/debug.h \
  quantum/logging/print.h quantum/logging/sendchar.h platforms/progmem.h \
- tmk_core/protocol/usb_device_state.h quantum/keycode_config.h \
- quantum/compiler_support.h quantum/eeconfig.h quantum/action_layer.h \
- quantum/action.h quantum/action_code.h
+ lib/printf/src/printf/printf.h tmk_core/protocol/usb_device_state.h \
+ quantum/keycode_config.h quantum/compiler_support.h quantum/eeconfig.h \
+ quantum/action_layer.h quantum/action.h quantum/action_code.h
 keyboards/quaero/config.h:
 .build/obj_quaero_default/src/info_config.h:
 platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
@@ -34,6 +34,7 @@ quantum/logging/debug.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
 platforms/progmem.h:
+lib/printf/src/printf/printf.h:
 tmk_core/protocol/usb_device_state.h:
 quantum/keycode_config.h:
 quantum/compiler_support.h:

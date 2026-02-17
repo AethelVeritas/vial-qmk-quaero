@@ -122,7 +122,8 @@
  platforms/chibios/chibios_config.h quantum/compiler_support.h \
  platforms/chibios/_wait.c quantum/logging/print.h quantum/util.h \
  quantum/bits.h quantum/bitwise.h platforms/chibios/_util.h \
- quantum/logging/sendchar.h platforms/progmem.h quantum/logging/debug.h \
+ quantum/logging/sendchar.h platforms/progmem.h \
+ lib/printf/src/printf/printf.h quantum/logging/debug.h \
  quantum/split_common/split_util.h quantum/split_common/transactions.h \
  quantum/split_common/transaction_id_define.h \
  quantum/split_common/transport.h quantum/action_layer.h \
@@ -278,6 +279,7 @@ quantum/bitwise.h:
 platforms/chibios/_util.h:
 quantum/logging/sendchar.h:
 platforms/progmem.h:
+lib/printf/src/printf/printf.h:
 quantum/logging/debug.h:
 quantum/split_common/split_util.h:
 quantum/split_common/transactions.h:

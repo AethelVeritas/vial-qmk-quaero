@@ -127,9 +127,9 @@
  platforms/chibios/_wait.c quantum/qmk_settings.h \
  quantum/keycode_config.h quantum/compiler_support.h quantum/eeconfig.h \
  quantum/logging/debug.h quantum/logging/print.h \
- quantum/logging/sendchar.h quantum/quantum.h \
- platforms/chibios/platform_deps.h quantum/matrix.h platforms/gpio.h \
- platforms/pin_defs.h platforms/chibios/_pin_defs.h \
+ quantum/logging/sendchar.h lib/printf/src/printf/printf.h \
+ quantum/quantum.h platforms/chibios/platform_deps.h quantum/matrix.h \
+ platforms/gpio.h platforms/pin_defs.h platforms/chibios/_pin_defs.h \
  platforms/chibios/vendors/RP/_pin_defs.h platforms/chibios/gpio.h \
  quantum/keymap_common.h quantum/quantum_keycodes.h \
  quantum/keymap_extras/keymap_us.h quantum/sequencer/sequencer.h \
@@ -305,6 +305,7 @@ quantum/eeconfig.h:
 quantum/logging/debug.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:
 quantum/quantum.h:
 platforms/chibios/platform_deps.h:
 quantum/matrix.h:

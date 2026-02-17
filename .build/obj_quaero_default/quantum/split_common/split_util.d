@@ -127,7 +127,8 @@
  platforms/chibios/chibios_config.h platforms/chibios/_wait.c \
  quantum/logging/debug.h quantum/logging/print.h quantum/util.h \
  quantum/bits.h platforms/chibios/_util.h quantum/logging/sendchar.h \
- tmk_core/protocol/usb_util.h platforms/bootloader.h
+ lib/printf/src/printf/printf.h tmk_core/protocol/usb_util.h \
+ platforms/bootloader.h
 keyboards/quaero/config.h:
 .build/obj_quaero_default/src/info_config.h:
 platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
@@ -288,5 +289,6 @@ quantum/util.h:
 quantum/bits.h:
 platforms/chibios/_util.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:
 tmk_core/protocol/usb_util.h:
 platforms/bootloader.h:

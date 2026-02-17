@@ -10,9 +10,10 @@
  platforms/chibios/_util.h quantum/action_layer.h quantum/action.h \
  platforms/progmem.h quantum/action_code.h quantum/logging/debug.h \
  quantum/logging/print.h quantum/logging/sendchar.h \
- quantum/keycode_config.h quantum/compiler_support.h quantum/eeconfig.h \
- quantum/quantum_keycodes.h quantum/keymap_extras/keymap_us.h \
- quantum/sequencer/sequencer.h quantum/quantum_keycodes_legacy.h
+ lib/printf/src/printf/printf.h quantum/keycode_config.h \
+ quantum/compiler_support.h quantum/eeconfig.h quantum/quantum_keycodes.h \
+ quantum/keymap_extras/keymap_us.h quantum/sequencer/sequencer.h \
+ quantum/quantum_keycodes_legacy.h
 keyboards/quaero/config.h:
 .build/obj_quaero_default/src/info_config.h:
 platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
@@ -38,6 +39,7 @@ quantum/action_code.h:
 quantum/logging/debug.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:
 quantum/keycode_config.h:
 quantum/compiler_support.h:
 quantum/eeconfig.h:

@@ -8,9 +8,9 @@
  tmk_core/protocol/host_driver.h platforms/timer.h \
  platforms/chibios/_timer.h quantum/logging/debug.h \
  quantum/logging/print.h quantum/logging/sendchar.h platforms/progmem.h \
- platforms/gpio.h platforms/pin_defs.h platforms/chibios/_pin_defs.h \
- platforms/chibios/vendors/RP/_pin_defs.h platforms/chibios/gpio.h \
- lib/chibios/os/hal/include/hal.h \
+ lib/printf/src/printf/printf.h platforms/gpio.h platforms/pin_defs.h \
+ platforms/chibios/_pin_defs.h platforms/chibios/vendors/RP/_pin_defs.h \
+ platforms/chibios/gpio.h lib/chibios/os/hal/include/hal.h \
  lib/chibios/os/common/portability/GCC/ccportab.h \
  lib/chibios/os/hal/osal/rt-nil/osal.h lib/chibios/os/rt/include/ch.h \
  lib/chibios/os/license/chlicense.h lib/chibios/os/license/chversion.h \
@@ -145,6 +145,7 @@ quantum/logging/debug.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
 platforms/progmem.h:
+lib/printf/src/printf/printf.h:
 platforms/gpio.h:
 platforms/pin_defs.h:
 platforms/chibios/_pin_defs.h:

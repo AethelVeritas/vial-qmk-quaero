@@ -126,8 +126,9 @@
  tmk_core/protocol/report.h quantum/util.h quantum/bits.h \
  platforms/chibios/_util.h tmk_core/protocol/host_driver.h quantum/led.h \
  quantum/sync_timer.h quantum/logging/print.h quantum/logging/sendchar.h \
- quantum/logging/debug.h quantum/command.h quantum/bootmagic/bootmagic.h \
- quantum/mousekey.h drivers/eeprom/eeprom_driver.h platforms/eeprom.h \
+ lib/printf/src/printf/printf.h quantum/logging/debug.h quantum/command.h \
+ quantum/bootmagic/bootmagic.h quantum/mousekey.h \
+ drivers/eeprom/eeprom_driver.h platforms/eeprom.h \
  quantum/wear_leveling/wear_leveling_drivers.h \
  platforms/chibios/drivers/wear_leveling/wear_leveling_rp2040_flash_config.h \
  lib/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
@@ -293,6 +294,7 @@ quantum/led.h:
 quantum/sync_timer.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:
 quantum/logging/debug.h:
 quantum/command.h:
 quantum/bootmagic/bootmagic.h:

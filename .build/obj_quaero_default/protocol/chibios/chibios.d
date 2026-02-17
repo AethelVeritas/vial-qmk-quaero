@@ -145,8 +145,9 @@
  tmk_core/protocol/host_driver.h quantum/led.h quantum/keyboard.h \
  quantum/action.h quantum/action_code.h quantum/action_util.h \
  quantum/mousekey.h quantum/logging/sendchar.h quantum/logging/debug.h \
- quantum/logging/print.h platforms/suspend.h platforms/wait.h \
- platforms/chibios/_wait.h platforms/chibios/_wait.c
+ quantum/logging/print.h lib/printf/src/printf/printf.h \
+ platforms/suspend.h platforms/wait.h platforms/chibios/_wait.h \
+ platforms/chibios/_wait.c
 keyboards/quaero/config.h:
 .build/obj_quaero_default/src/info_config.h:
 platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
@@ -324,6 +325,7 @@ quantum/mousekey.h:
 quantum/logging/sendchar.h:
 quantum/logging/debug.h:
 quantum/logging/print.h:
+lib/printf/src/printf/printf.h:
 platforms/suspend.h:
 platforms/wait.h:
 platforms/chibios/_wait.h:

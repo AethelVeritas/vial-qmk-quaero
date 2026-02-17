@@ -144,7 +144,8 @@
  platforms/wait.h platforms/chibios/_wait.h \
  platforms/chibios/chibios_config.h platforms/chibios/_wait.c \
  quantum/logging/debug.h quantum/logging/print.h quantum/util.h \
- quantum/bits.h platforms/chibios/_util.h quantum/logging/sendchar.h
+ quantum/bits.h platforms/chibios/_util.h quantum/logging/sendchar.h \
+ lib/printf/src/printf/printf.h
 keyboards/quaero/config.h:
 .build/obj_quaero_default/src/info_config.h:
 platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
@@ -324,3 +325,4 @@ quantum/util.h:
 quantum/bits.h:
 platforms/chibios/_util.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:

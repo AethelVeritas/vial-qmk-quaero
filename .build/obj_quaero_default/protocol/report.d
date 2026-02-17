@@ -10,7 +10,8 @@
  quantum/keyboard.h platforms/timer.h platforms/chibios/_timer.h \
  quantum/action.h platforms/progmem.h quantum/action_code.h \
  quantum/logging/debug.h quantum/logging/print.h \
- quantum/logging/sendchar.h tmk_core/protocol/usb_device_state.h
+ quantum/logging/sendchar.h lib/printf/src/printf/printf.h \
+ tmk_core/protocol/usb_device_state.h
 keyboards/quaero/config.h:
 .build/obj_quaero_default/src/info_config.h:
 platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
@@ -41,4 +42,5 @@ quantum/action_code.h:
 quantum/logging/debug.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:
 tmk_core/protocol/usb_device_state.h:

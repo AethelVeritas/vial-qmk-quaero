@@ -10,7 +10,8 @@
  quantum/nvm/eeprom/nvm_eeprom_eeconfig_internal.h \
  quantum/compiler_support.h quantum/eeconfig.h quantum/util.h \
  quantum/bits.h platforms/chibios/_util.h quantum/logging/debug.h \
- quantum/logging/print.h quantum/logging/sendchar.h platforms/eeprom.h \
+ quantum/logging/print.h quantum/logging/sendchar.h \
+ lib/printf/src/printf/printf.h platforms/eeprom.h \
  quantum/wear_leveling/wear_leveling_drivers.h \
  platforms/chibios/drivers/wear_leveling/wear_leveling_rp2040_flash_config.h \
  lib/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
@@ -55,6 +56,7 @@ platforms/chibios/_util.h:
 quantum/logging/debug.h:
 quantum/logging/print.h:
 quantum/logging/sendchar.h:
+lib/printf/src/printf/printf.h:
 platforms/eeprom.h:
 quantum/wear_leveling/wear_leveling_drivers.h:
 platforms/chibios/drivers/wear_leveling/wear_leveling_rp2040_flash_config.h:
